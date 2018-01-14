@@ -38,3 +38,5 @@ Now we can make:
 - composer require rap2hpoutre/laravel-log-viewer
 - need to add in (config/app.php) package service provider: Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
 - need to add in web routes: Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+
+#### Arcanedev/logviewer is installed and will be configured later
