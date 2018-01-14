@@ -12,3 +12,14 @@
 - vagrant up
 
 ##### You will find Laravel running on your url at: http://homestead.test
+
+#### Laravel Extended File Generator
+
+- composer require laracasts/generators --dev
+
+Now we can make:
+
+- Migrations With Schema
+- Pivot Tables
+- Database Seeders
+
