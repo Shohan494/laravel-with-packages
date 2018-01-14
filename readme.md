@@ -26,3 +26,9 @@ Now we can make:
 #### Laravel Api Doc Generator
 
 - composer require mpociot/laravel-apidoc-generator
+
+#### Laravel Decomposer to Check Dependencies
+
+- composer require lubusin/laravel-decomposer
+- need to add in (config/app.php) package service provider: Lubusin\Decomposer\DecomposerServiceProvider::class,
+- need to add in web routes: Route::get('decompose','\Lubusin\Decomposer\Controllers\DecomposerController@index');

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bf7003626c62f8aec0dceb2e5a9ffada",
-    "content-hash": "db22ffae726dce150002cdecfeb78aad",
+    "hash": "14a3eb31deda4645b495d8753706f137",
+    "content-hash": "2bcaf865268176a9ecd5f98cf72f8267",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -735,6 +735,54 @@
                 "storage"
             ],
             "time": "2017-08-06 17:41:04"
+        },
+        {
+            "name": "lubusin/laravel-decomposer",
+            "version": "v1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lubusIN/laravel-decomposer.git",
+                "reference": "e060fff7aefacd8664be0f53132986ecf481a802"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lubusIN/laravel-decomposer/zipball/e060fff7aefacd8664be0f53132986ecf481a802",
+                "reference": "e060fff7aefacd8664be0f53132986ecf481a802",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "illuminate/http": "^5.0",
+                "illuminate/routing": "^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Lubusin\\Decomposer\\DecomposerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lubusin\\Decomposer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Harish Toshniwal",
+                    "email": "harish@lubus.in"
+                }
+            ],
+            "description": "A Laravel package to decompose your installed packages, their dependencies, your app & server environment",
+            "time": "2017-08-24 11:24:51"
         },
         {
             "name": "mnapoli/front-yaml",
