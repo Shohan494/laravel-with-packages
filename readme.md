@@ -40,3 +40,10 @@ Now we can make:
 - need to add in web routes: Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 
 #### Arcanedev/logviewer is installed and will be configured later
+
+#### Laravel Tracy
+
+- composer require recca0120/laravel-tracy
+- need to add in (config/app.php) package service provider:     Recca0120\LaravelTracy\LaravelTracyServiceProvider::class,
+- run this command: php artisan vendor:publish --provider="Recca0120\LaravelTracy\LaravelTracyServiceProvider"
+- edit the created config file as package doc

@@ -170,6 +170,7 @@ return [
         
         Lubusin\Decomposer\DecomposerServiceProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
+        Recca0120\LaravelTracy\LaravelTracyServiceProvider::class,
 
         /*
          * Application Service Providers...
