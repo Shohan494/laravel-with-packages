@@ -47,3 +47,11 @@ Now we can make:
 - need to add in (config/app.php) package service provider:     Recca0120\LaravelTracy\LaravelTracyServiceProvider::class,
 - run this command: php artisan vendor:publish --provider="Recca0120\LaravelTracy\LaravelTracyServiceProvider"
 - edit the created config file as package doc
+
+#### Tymon/JWT auth
+
+- composer require tymon/jwt-auth
+- need to add in (config/app.php) package service provider:     Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+- run this command: php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\JWTAuthServiceProvider"
+- edited the (commands/jwtgneratecommand) file's fire method name to handle
+- php artisan jwt:generate

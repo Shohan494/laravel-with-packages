@@ -12,8 +12,10 @@
         "laravel/tinker": "~1.0",
         "lubusin/laravel-decomposer": "^1.2",
         "mpociot/laravel-apidoc-generator": "^2.0",
+        "phpseclib/phpseclib": "^2.0",
         "rap2hpoutre/laravel-log-viewer": "^0.11.0",
-        "recca0120/laravel-tracy": "^1.8"
+        "recca0120/laravel-tracy": "^1.8",
+        "tymon/jwt-auth": "^0.5.12"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.1",

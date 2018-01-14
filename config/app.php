@@ -171,6 +171,7 @@ return [
         Lubusin\Decomposer\DecomposerServiceProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Recca0120\LaravelTracy\LaravelTracyServiceProvider::class,
+        Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
 
         /*
          * Application Service Providers...
