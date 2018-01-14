@@ -23,3 +23,6 @@ Now we can make:
 - Pivot Tables
 - Database Seeders
 
+#### Laravel Api Doc Generator
+
+- composer require mpociot/laravel-apidoc-generator
