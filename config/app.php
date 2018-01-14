@@ -169,6 +169,7 @@ return [
          */
         
         Lubusin\Decomposer\DecomposerServiceProvider::class,
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
 
         /*
          * Application Service Providers...

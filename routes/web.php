@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('decompose','\Lubusin\Decomposer\Controllers\DecomposerController@index');
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
