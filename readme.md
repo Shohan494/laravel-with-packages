@@ -55,3 +55,9 @@ Now we can make:
 - run this command: php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\JWTAuthServiceProvider"
 - edited the (commands/jwtgneratecommand) file's fire method name to handle
 - php artisan jwt:generate
+
+#### Laravel Api Tester
+
+- composer require asvae/laravel-api-tester
+- need to add in (config/app.php) package service provider:     Asvae\ApiTester\ServiceProvider::class,
+- run this command: php artisan vendor:publish --provider="Asvae\ApiTester\ServiceProvider"

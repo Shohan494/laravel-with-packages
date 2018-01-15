@@ -172,6 +172,7 @@ return [
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Recca0120\LaravelTracy\LaravelTracyServiceProvider::class,
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+        Asvae\ApiTester\ServiceProvider::class,
 
         /*
          * Application Service Providers...
