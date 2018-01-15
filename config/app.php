@@ -173,6 +173,7 @@ return [
         Recca0120\LaravelTracy\LaravelTracyServiceProvider::class,
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
         Asvae\ApiTester\ServiceProvider::class,
+        MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider::class,
 
         /*
          * Application Service Providers...
